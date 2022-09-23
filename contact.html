@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact us</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="nav-search nav-B">
+      <div class="container navbar">
+        <img
+          class="navbar-logo brand"
+          src="./logos/circle.svg"
+          alt="circle-logo"
+        />
+        <nav class="nav-menu">
+          <a class="nav-link nav-B" href="">Home</a>
+          <a class="nav-link nav-B" href="#">Projects</a>
+          <a class="nav-link nav-B" href="#">Services</a>
+        </nav>
+        <div class="contact-Btn">
+          <a class="btn-contact" href="./contact.html">Contact Us</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container contact-container">
+      <h1 class="contact-heading">Contact Us</h1>
+      <div class="contact-form form-B">
+        <form id="email-form" class="form-info">
+          <div class="part-1">
+            <label class="contact-titel" for="name">Full Name *</label>
+            <input
+              class="contact-email1 input-b"
+              id="user-name"
+              type="text"
+              data-name="Name"
+              placeholder="Enter your full name"
+            />
+          </div>
+
+          <div class="part-email2">
+            <label class="contact-titel" for="user-email">Email</label>
+
+            <input
+              class="contact-email input-b"
+              id="user-email"
+              type="email"
+              data-name="Name2"
+              placeholder="Enter your email"
+            />
+          </div>
+          <div class="part-email2">
+            <label class="contact-titel" for="user-phone">Phone</label>
+            <input
+              class="contact-email input-b"
+              id="user-phone"
+              placeholder="Enter your phone"
+              data-name="Name3"
+            />
+          </div>
+
+          <div class="part-email3">
+            <label class="contact-titel" for="field">Message*</label>
+            <textarea
+              class="text-area input-b contact-email"
+              name="field"
+              id="field"
+              data-name="field"
+              type="message"
+              cols=""
+              rows=""
+              maxlength="5000"
+              placeholder="Write your message here..."
+            ></textarea>
+          </div>
+          <input
+            class="part-1 contact-Btn btn-contact sub-btn"
+            id="submit"
+            class="contact-button"
+            type="submit"
+            value="submit"
+            data-wait="Please Wait..."
+          />
+        </form>
+        <div class="email-done"></div>
+        <div class="email-fail"></div>
+      </div>
+    </div>
+
+    <footer class="section-footer">
+      <div class="container container-footer">
+        <div class="footer-content">
+          <div class="footer-logo"></div>
+          <div class="footer-content-address">
+            2972 Westheimer Rd. Santa Ana, Illinois 85486
+          </div>
+        </div>
+        <div class="footer-links">
+          <a class="footer-link" href="#">Team</a>
+          <a class="footer-link" href="#">Services</a>
+          <a class="footer-link" href="#">About Us</a>
+          <a class="footer-link" href="#">Press</a>
+          <a class="footer-link" href="#">Projects</a>
+          <a class="footer-link" href="#">Privecy Policy</a>
+        </div>
+      </div>
+    </footer>
+    <script src="contact.js"></script>
+  </body>
+</html>

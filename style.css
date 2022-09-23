@@ -3,9 +3,18 @@ body {
   padding: 0;
   background-color: #f2f4fc;
   font-family: "Roboto", sans-serif;
-  min-height: 100%;
+  font-size: 14px;
   line-height: 20px;
 }
+
+.body-2 {
+  margin-left: 0px;
+}
+
+html {
+  height: 100%;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -258,6 +267,88 @@ body {
   .project-card {
     width: 100%;
     max-width: 100%;
+  }
+  .section.testimonial {
+    height: 450px;
+  }
+  .container.testimonial {
+    height: 100%;
+    justify-content: space-around;
+  }
+  .emoji.top-left {
+    display: none;
+  }
+  .emoji.top-right {
+    display: none;
+  }
+  .emoji.botom-left {
+    display: none;
+  }
+  .emoji.botom-right {
+    display: none;
+  }
+  .client-pic {
+    display: none;
+  }
+  .services-grid {
+    margin-top: 20px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+  }
+  .user-card {
+    max-width: 100%;
+  }
+
+  .user-icon.icon-1 {
+    -webkit-box-flex: 0;
+    flex: 0 0 auto;
+  }
+  .user-icon.icon-2 {
+    -webkit-box-flex: 0;
+    flex: 0 0 auto;
+  }
+
+  .user-icon.icon-3 {
+    -webkit-box-flex: 0;
+    flex: 0 0 auto;
+  }
+
+  .section.help-section {
+    width: 100%;
+  }
+  .container.container-help {
+    max-width: 100%;
+  }
+  .help-heading {
+    font-size: 30px;
+  }
+  .form-part {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+  }
+  .form-card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+  }
+
+  .container-footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+  .footer-content {
+    -webkitbos-align: center;
+    align-items: center;
+  }
+  .footer-content-address {
+    text-align: center;
+  }
+  .footer-links {
+    margin-top: 20px;
   }
 }
 
@@ -772,7 +863,7 @@ body {
   display: grid;
   grid-auto-columns: 1fr;
   grid-column-gap: 15px;
-  grid: gap row 15px;
+  grid-row-gap: 15px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
 }

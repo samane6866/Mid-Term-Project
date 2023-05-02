@@ -56,9 +56,10 @@ html {
   margin-right: auto;
 }
 .contact-Btn {
-  padding: 15px 30px;
+  padding: 20px 30px;
   font-size: 18px;
   background-color: #072ac8;
+  margin-left: 10px;
 }
 .btn-contact {
   display: inline-block;
@@ -355,7 +356,7 @@ html {
 .client-job {
   font-size: 12px;
   color: #f2f4fc;
-  margin-left: 3px;
+  text-align: center;
 }
 
 .emoji {
@@ -556,11 +557,12 @@ html {
 
 .email-field {
   width: 300px;
-  height: 80px;
+  height: 67px;
   background-color: #ecf7ff;
   padding-left: 70px;
   margin-bottom: 0px;
   color: #292e47;
+  margin-left: 10px;
 }
 .emial-input {
   display: block;
@@ -569,10 +571,10 @@ html {
   border: 1px solid gainsboro;
 }
 .contact-Btn.btn-contact.suscribe-btn {
-  height: 80px;
+  /* height: 80px;
   margin-left: 20px;
   margin-right: 60px;
-  padding-left: 50px;
+  padding-left: 50px; */
 }
 
 .section-footer {
@@ -825,7 +827,7 @@ html {
   }
   .btn-contact.contact-Btn {
     display: block;
-    margin-left: 0px;
+    margin-top: 15px;
   }
   .hero-img {
     margin-top: 30px;
@@ -839,6 +841,7 @@ html {
 
   .section.project-section {
     margin-top: 40px;
+    display: flex;
   }
   .section.testimonial {
     margin-top: 60px;
@@ -871,7 +874,9 @@ html {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
   }
-
+  .client-name {
+    display: none;
+  }
   .services-grid {
     display: flex;
     flex-direction: column;
@@ -903,7 +908,7 @@ html {
   }
   .btn-contact.contact-Btn {
     margin-right: 0px;
-    margin-bottom: 20px;
+    margin-top: 20px;
     text-align: center;
   }
   .hero-card1 {
@@ -989,6 +994,7 @@ html {
   .project-card {
     width: 100%;
     max-width: 100%;
+    margin-bottom: 30px;
   }
   .section.testimonial {
     height: 450px;

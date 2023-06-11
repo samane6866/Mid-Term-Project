@@ -44,6 +44,9 @@ html {
 .nav-bar {
   display: flex;
 }
+
+ 
+
 .nav-link {
   position: relative;
   display: inline-block;
@@ -238,6 +241,14 @@ html {
   justify-content: flex-start;
   -webkit-box-flex: 1;
   -webkit-box-orient: vertical;
+}
+.project-card:hover {
+  /* Estilos del hover */
+  box-shadow: 0 0 10px rgba(87, 78, 78, 0.2);
+}
+.shadow-drop-center {
+	-webkit-animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 .project-img {
   width: 80%;
@@ -438,8 +449,8 @@ html {
   background-color: #fff;
    
 }
-.user-card :hover {
-  box-shadow: 10px 5px 5px rgb(154, 140, 168);
+.user-card:hover {
+  box-shadow: 10px 5px 5px rgb(162, 159, 175);
 } 
 .service-content {
   display: flex;

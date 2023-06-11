@@ -27,7 +27,7 @@ function linkProject() {
             <div class="p-content">
               <div class="project-text">
                 <h3>${post.title.slice(0, 10)}</h3>
-                <div class="p-discription">${post.body.slice(0, 50)}</div>
+                <div class="p-discription">${post.body.slice(0, 40)}</div>
                 <a class="p-link" href="project.html" target="_blank"
                   >Learn More</a
                 >

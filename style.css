@@ -227,7 +227,8 @@ html {
   grid-template-rows: auto auto;
   /* grid-column-gap: 40px; */
 }
-.project-card {
+.project-card{
+  
   display: flex;
   width: 340px;
   height: 444px;
@@ -239,9 +240,10 @@ html {
   -webkit-box-orient: vertical;
 }
 .project-img {
-  width: 100%;
-  height: 240px;
+  width: 80%;
+  height: 40vh;
   object-fit: cover;
+  filter: drop-shadow(5px 5px 20px #c414ca74);
 }
 .section.project-section {
   margin-top: 200px;
@@ -428,13 +430,17 @@ html {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
 }
-.user-card {
+.user-card  {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   max-width: 350px;
   background-color: #fff;
+   
 }
+.user-card :hover {
+  box-shadow: 10px 5px 5px rgb(154, 140, 168);
+} 
 .service-content {
   display: flex;
   flex-direction: column;
@@ -759,16 +765,24 @@ html {
 }
 .pic-project {
   margin-bottom: 100px;
+
+  /* filter: drop-shadow(5px 5px 20px #c414ca74); */
 }
 
 .main-head {
   font-size: 50px;
   font-weight: bold;
-  margin-bottom: 50px;
+   margin-bottom: 50px; 
 }
 .lorem {
   font-size: 15px;
   margin-top: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  line-height: 1.5;
+  margin: 20px;
 }
 
 @media screen and (max-width: 991px) {
@@ -903,6 +917,7 @@ html {
   .heading-1.heading-hero {
     font-size: 30px;
   }
+  
   .hero-Btn {
     -webkit-box-orient: vertical;
     flex-direction: column-reverse;
@@ -926,6 +941,10 @@ html {
   .hero-card2 {
     display: none;
   }
+  .main-head{
+    margin: 20px;
+    font-size: 30px;
+  }
   .grid-logos {
     width: 100%;
     max-width: 100%;
@@ -945,6 +964,14 @@ html {
   }
   .form-card {
     max-width: 100%;
+  }
+  .lorem{
+    max-width: 800px;
+    margin: 0 auto;font-size: 18px;
+    line-height: 1.5;
+    margin: 20px;
+    column-count: 2;
+    column-gap: 20px;
   }
 
   /* .project-grid {
@@ -1000,7 +1027,9 @@ html {
     align-items: center;
   }
   .pic-project img {
-    width: 450px;
+    width: 100%;
+    height:auto;
+    align-items: center;
   }
   .project-card {
     width: 100%;
